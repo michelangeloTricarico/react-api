@@ -36,9 +36,6 @@ function App() {
     <h1 className='text-center m-2'>Cast Fetching</h1>
     <Accordion actors={actors} castFemale={castFemale} castMale={castMale} />
     <Card actors={actors} />
-
-    
-   
     </>
   )
 }
